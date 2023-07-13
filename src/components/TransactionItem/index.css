@@ -1,0 +1,42 @@
+.history-item-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  margin: 0px;
+  padding: 5px;
+  list-style-type: none;
+}
+.history-item-title {
+  font-family: Roboto;
+  font-size: 11px;
+  color: #7e858e;
+  width: 25%;
+}
+.history-item-amount {
+  font-family: Roboto;
+  font-size: 11px;
+  color: #7e858e;
+  width: 25%;
+}
+.history-item-type {
+  font-family: Roboto;
+  font-size: 11px;
+  color: #7e858e;
+  width: 30%;
+}
+.delete-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,45 @@
+.money-details-item {
+  border-radius: 8px;
+  width: 30%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bg-blue {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.bg-violet {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.bg-green {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.money-icon {
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.type {
+  font-family: Roboto;
+  font-size: 10px;
+  color: #475569;
+  margin-bottom: 5px;
+}
+.rupees {
+  margin-top: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #475569;
+}
