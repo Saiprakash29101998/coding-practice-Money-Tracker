@@ -154,8 +154,8 @@
 .history-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: stretch;
   margin: 0px;
   padding: 0px;
 }
@@ -189,4 +189,12 @@
   color: #334155;
   flex-grow: 1;
   font-weight: 800;
+}
+.ul-list {
+  width: 100%;
+  align-self: stretch;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 0px;
+  flex-grow: 1;
 }

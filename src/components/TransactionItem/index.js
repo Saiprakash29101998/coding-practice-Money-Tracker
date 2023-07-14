@@ -7,7 +7,7 @@ const TransactionItem = props => {
     eachItem => eachItem.optionId === type,
   )
   const {displayText} = transactionTypeList[0]
-  const onDelete = () => {
+  const onDeleteHistory = () => {
     onClickDelete(id)
   }
   return (
@@ -17,7 +17,7 @@ const TransactionItem = props => {
       <p className="history-item-type">{displayText}</p>
       <button
         type="button"
-        onClick={onDelete}
+        onClick={onDeleteHistory}
         className="delete-button"
         data-testid="delete"
       >

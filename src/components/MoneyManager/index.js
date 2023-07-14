@@ -168,21 +168,25 @@ class MoneyManager extends Component {
           </form>
           <div className="history-container">
             <h1 className="history-heading">History</h1>
-            <ul className="history-list">
-              <li className="history-title-container">
+            <div className="history-list">
+              <div className="history-title-container">
                 <p className="history-title">Title</p>
                 <p className="history-amount">Amount</p>
                 <p className="history-type">Type</p>
-              </li>
-              {historyList.map(eachTransaction => (
-                <TransactionItem
-                  transaction={eachTransaction}
-                  key={eachTransaction.id}
-                  onClickDelete={this.onClickDelete}
-                  transactionTypeOptions={transactionTypeOptions}
-                />
-              ))}
-            </ul>
+              </div>
+              {historyList.length !== 0 ? (
+                <ul className="ul-list">
+                  {historyList.map(eachTransaction => (
+                    <TransactionItem
+                      transaction={eachTransaction}
+                      key={eachTransaction.id}
+                      onClickDelete={this.onClickDelete}
+                      transactionTypeOptions={transactionTypeOptions}
+                    />
+                  ))}
+                </ul>
+              ) : null}
+            </div>
           </div>
         </div>
       </div>

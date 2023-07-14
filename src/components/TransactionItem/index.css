@@ -9,6 +9,7 @@
   margin: 0px;
   padding: 5px;
   list-style-type: none;
+  flex-grow: 1;
 }
 .history-item-title {
   font-family: Roboto;
